@@ -1,0 +1,81 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("man-3126802_1920.jpg");
+
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+.you {
+  /* position: absolute;
+  top: 10%; */
+  word-spacing: 20px;
+  letter-spacing: 10px;
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
+.no {
+  background-image: linear-gradient(
+    rgba(300, 300, 300, 0.173),
+    rgba(300, 300, 300, 0.173)
+  );
+  padding: 50px 0 50px 0;
+}
+
+@media only screen and (min-width: 300px) {
+  .you {
+    text-align: center;
+    font-size: 40px;
+  }
+  .no {
+    padding: 0px;
+  }
+  .no h1 {
+    font-size: 20px;
+  }
+  .no h2 {
+    font-size: 20px;
+  }
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("man-3126802_1920.jpg");
+
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    color: #fff;
+  }
+}
+
+@media (min-width: 576px) {
+  .you {
+    text-align: center;
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
